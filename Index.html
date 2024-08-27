@@ -31,6 +31,21 @@
             height: 30px;
         }
 
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+            
+        }
+        button:hover{
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+
     </style>
 
 </head>
@@ -42,7 +57,7 @@
         <h3>Login Sistema Mines 00</h3>
         <input type="text" placeholder="Login" id="login">
         <input type="password" placeholder="Senha" id="senha">
-        <input type="submit" onclick="logar(); return false">
+        <input type="button" onclick="logar(); return false">
 
     </form>
 
